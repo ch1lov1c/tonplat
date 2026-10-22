@@ -1,0 +1,198 @@
+/* ==========================================================================
+   ТонПлат · Design System Tokens (Soft Warm Pastel Catering Website)
+   All assets sit in the single flat root folder (./...) with zero subfolders.
+   Follows jakubkrehel/skills (two-tier tokens, WCAG AA contrast, concentric radii).
+   ========================================================================== */
+
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: italic;
+  font-weight: 400 600;
+  font-display: swap;
+  src: url('./cormorant-italic-cyrillic-ext.woff2') format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: italic;
+  font-weight: 400 600;
+  font-display: swap;
+  src: url('./cormorant-italic-cyrillic.woff2') format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: italic;
+  font-weight: 400 600;
+  font-display: swap;
+  src: url('./cormorant-italic-latin-ext.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: italic;
+  font-weight: 400 600;
+  font-display: swap;
+  src: url('./cormorant-italic-latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url('./cormorant-normal-cyrillic-ext.woff2') format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url('./cormorant-normal-cyrillic.woff2') format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url('./cormorant-normal-latin-ext.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url('./cormorant-normal-latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url('./manrope-normal-cyrillic-ext.woff2') format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url('./manrope-normal-cyrillic.woff2') format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url('./manrope-normal-latin-ext.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url('./manrope-normal-latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+:root {
+  /* ------------------------------------------------------------------------
+     1. Soft Warm Pastel Ramp (Alabaster, Oat Linen, Menu Cream, Sage & Cocoa)
+     ------------------------------------------------------------------------ */
+  --pastel-porcelain: #FFFEFC;
+  --pastel-alabaster: #FAF7F2;
+  --pastel-menu-cream: #F7F3E7; /* Matches die-cut corner badges 01..94 seamlessly */
+  --pastel-linen: #F3ECE2;
+  --pastel-champagne: #ECE2D2;
+  --pastel-sand-hover: #E4D7C3;
+
+  --pastel-sage-bg: #EAF1EB;
+  --pastel-sage-text: #35523A;  /* 7.56:1 WCAG AA */
+
+  --pastel-blush-bg: #FCEEEE;
+  --pastel-blush-text: #8A2424;
+
+  --line-soft: #E5DDD0;
+  --line-gold: #D3C3AB;
+  --line-input: #9B8878;        /* 3.39:1 >= 3:1 control border contrast */
+
+  --cocoa-primary: #6B4C35;     /* Warm soft roasted cocoa CTA (7.63:1) */
+  --cocoa-hover: #563B28;
+  --bronze-price: #7A5835;      /* Antique warm bronze price (5.78:1) */
+  --taupe-muted: #685649;       /* Warm cocoa-taupe secondary ink (5.94:1) */
+  --ink-charcoal: #2A201A;      /* Warm espresso ink (14.89:1, zero harsh black) */
+
+  /* ------------------------------------------------------------------------
+     2. Semantic Role Tokens
+     ------------------------------------------------------------------------ */
+  --color-bg-page: var(--pastel-alabaster);
+  --color-bg-band: var(--pastel-linen);
+  --color-bg-menu: var(--pastel-menu-cream);
+  --color-bg-surface: var(--pastel-porcelain);
+  --color-bg-subtle: var(--pastel-champagne);
+  --color-bg-hover: var(--pastel-sand-hover);
+  --color-bg-header: rgba(250, 247, 242, 0.94);
+
+  --color-text-primary: var(--ink-charcoal);
+  --color-text-secondary: var(--taupe-muted);
+  --color-text-price: var(--bronze-price);
+
+  --color-accent-solid: var(--cocoa-primary);
+  --color-accent-solid-hover: var(--cocoa-hover);
+  --color-accent-on-solid: #FFFDF9;
+
+  --color-badge-sage-bg: var(--pastel-sage-bg);
+  --color-badge-sage-text: var(--pastel-sage-text);
+
+  --color-border-subtle: var(--line-soft);
+  --color-border-accent: var(--line-gold);
+  --color-border-input: var(--line-input);
+
+  --color-status-err-bg: var(--pastel-blush-bg);
+  --color-status-err-text: var(--pastel-blush-text);
+
+  --color-scrim: rgba(42, 32, 26, 0.44);
+  --color-selection-bg: var(--pastel-champagne);
+  --color-selection-text: var(--ink-charcoal);
+
+  /* ------------------------------------------------------------------------
+     3. Soft Airy Elevation & Image Outline (better-ui)
+     ------------------------------------------------------------------------ */
+  --shadow-card:
+    0px 0px 0px 1px oklch(0 0 0 / 0.05),
+    0px 4px 16px -4px oklch(0 0 0 / 0.05);
+  --shadow-floating:
+    0px 0px 0px 1px oklch(0 0 0 / 0.08),
+    0px 14px 36px -8px rgba(42, 32, 26, 0.2);
+  --image-outline: oklch(0 0 0 / 0.08);
+
+  /* ------------------------------------------------------------------------
+     4. Typography Scale & Concentric Radii
+     ------------------------------------------------------------------------ */
+  --font-display: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+  --font-sans: 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+  --text-2xs: 0.6875rem;
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-h2: clamp(1.875rem, 3.6vw, 2.75rem);
+  --text-h1: clamp(2.25rem, 4.6vw, 3.625rem);
+
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --radius-xl: 24px;
+  --radius-pill: 999px;
+
+  --ease-ui: cubic-bezier(0.2, 0, 0, 1);
+  --header-height: 74px;
+  --scroll-offset: 136px;
+}
